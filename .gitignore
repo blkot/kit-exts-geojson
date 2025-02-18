@@ -1,0 +1,61 @@
+# all folders starting with _ are local
+_*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vs/
+.vscode/
+**/.vscode/ipch
+.idea/
+*.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.swp
+*.swo
+*~
+
+# Kit specific
+*.kit
+*.ngp
+*.db
+*.history
+
+# Omniverse Extension specific
+app/
+deps/
+_build/
+build/
+data/
+logs/
+users/
+tools/
+source/
+kit/
+cache/
+*.log
